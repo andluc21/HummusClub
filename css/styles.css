@@ -1,0 +1,223 @@
+/* form styles page*/
+
+
+* {
+    
+   
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background: black;
+}
+
+
+
+
+header img{ height: 300px; width: 840px;  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+
+
+  
+}
+
+body {
+    
+    background: #808000;}
+    
+/*styles for my Website*/
+    
+    
+#wrapper {width: 940px;
+            margin: 0 auto;}
+    
+    
+
+
+
+header {
+    height: 300px;
+        background: black;
+}
+    
+
+
+
+
+nav{
+    height: 130px;
+    background: yellow;
+}
+
+nav img {height: 130px; width: 100%;}
+
+
+
+main{
+    width: 580px;
+        float: left;
+}
+
+
+
+
+main.ty2{
+    width: 380px;
+        float: left;
+}
+
+main img.thx {height: 380px;width: 400px;padding-right: 100px;}
+
+
+
+aside{ border:1px solid yellow;
+        width: 340px;
+        float: right;
+        height: 300px;
+        background:yellow;
+        color: lawngreen;}
+
+aside.tysm{ border:1px solid yellow;
+        width: 490px;
+        float: right;
+        height: 300px;
+        background:yellow;
+        color: lawngreen;
+        }
+
+
+aside img.side 
+{height: 250px;
+    width: 338px;}
+
+
+aside img.side2
+{padding-top: 600px; height: 250px;
+    width: 338px;}
+
+aside img.ty1
+{height: 330px;
+    width: 507px;
+padding-right: 20px;}
+
+
+
+
+
+
+
+
+
+footer { 
+    border-top:1px dotted #666; 
+    height: 50px;
+    line-height: 50px;
+    background: black;
+    clear:both;
+    
+    
+    
+    
+}
+
+footer ul {padding-left: 250px;}
+
+
+footer li {float: left;
+            list-style-type: none;
+            margin-right: 30px;
+            font-size:.875em;
+            color:lawngreen;}
+
+
+
+figure {margin-bottom: 20px;color: lawngreen;}
+
+figcaption {
+    padding: 8px;
+    background: grey;
+    font-size: .875em;
+    font-style: italic;}
+    
+    
+figure.ty {margin-bottom: 20px;color: lawngreen;}
+
+figcaption {
+    padding: 8px;
+    background: grey;
+    font-size: .875em;
+    font-style: italic;
+    
+}
+
+    
+    
+/*styles for my form*/
+    
+    
+    
+}
+
+form {
+    max-width: 580px;
+}
+
+
+fieldset {padding: 10px;}
+
+
+
+
+legend {font-size: 1.5em;
+        font-style: italic;
+        padding: 0 4px;
+        color: yellow;}
+
+
+
+
+
+
+label {display: block;
+    margin-bottom: 5px; color:yellow;
+
+
+}
+
+input {width: 100%;
+        height: 20px;
+        margin-bottom: 10px;color: yellow;}
+
+input[type=radio],input[type=checkbox]
+                    {width: auto;
+                    height: auto;
+                    margin-right: 5px;
+                        color: red;}
+
+
+input[type=submit]   {width: auto; }
+
+
+textarea {width: 100%;
+        height: 60px;
+    margin-bottom: 10px;
+color: lawngreen;}
+    
+
+                
+
+select {margin-bottom: 10px;color: lawngreen;}
+
+form ul {margin-left: 10px;
+            margin-bottom: 10px;color: lawngreen;}
+
+form li {
+            list-style-type: none;
+}
+
+
+img.tag {width:60px; height: auto;}

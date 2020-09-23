@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Form Classwork</title>
+
+<!--Remy Sharp Shim --> 
+<!--[if lte IE 9]> 
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript" >
+</script> 
+<![endif]-->
+
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+    
+    
+    </head>
+    
+    <body>
+        <form action="formhandler.php"  method="post" >
+            <fieldset>
+                
+                
+                
+                
+                <legend>Contact Luca</legend>
+                
+                
+                
+                <label>Name </label>
+                <input type="text" name="name"> 
+                
+                <label>Email </label>
+                <input type="email" name="email"> 
+
+                <label>Payment</label>
+                
+                <ul>
+              
+                    <li> <input type="radio" name="payment" value="mastercard">Mastercard   </li>
+                    <li> <input type="radio" name="payment" value="visa">Visa   </li>
+                    <li> <input type="radio" name="payment" value="AMX">AMX   </li>                    <li> <input type="radio" name="payment" value="discover">Discover   </li>
+                
+                
+                
+                </ul>
+                
+    
+                
+                
+                
+
+                
+                <label>Wines</label>
+                
+                <ul>
+              
+                    <li> <input type="checkbox" name="wines[]" value="cab">Cabernet   </li>                    <li> <input type="checkbox" name="wines[]" value="merlot">Merlot   </li>                    
+                    <li> <input type="checkbox" name="wines[]" value="syrah">Syrah   </li>                    <li> <input type="checkbox" name="wines[]" value="blend">Red Blend  </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+                
+                
+                    
+                    
+                    
+                    
+        <label>Regions</label> 
+                <select name="regions">
+                 <option value="nw">Northwest</option><option value="nw">Southhwest</option><option value="nw">West</option><option value="nw">Midwest</option> <option value="nw">South</option><option value="nw">Southheast</option><option value="nw">Northeast</option>
+                
+                
+                
+                
+                </select>
+                    
+                    
+                    
+                    
+                    <label>Comments</label>
+                <textarea name="comments"></textarea>
+  
+                
+                
+
+                
+                <input type="submit" value="Send it">
+                
+                
+               
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </fieldset>        
+        
+           
+        </form>
+        
+        <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F~landolina%2Fit111%2Fform%2Fform.html"><img class="tag" src="images/htmltag.png" alt="html5"> VALID!!</a>
+    
+    
+    
+    </body>
+    </html> 
+
